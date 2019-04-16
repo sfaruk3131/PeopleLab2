@@ -4,9 +4,9 @@ public class Teacher extends Person {
 
     public Teacher(String subject, String title, String firstName, String familyName)
     {
+        super(firstName, familyName);
         this.subject = subject;
         this.title = title;
-        super(firstName, familyName);
     }
 
     public String getSubject()

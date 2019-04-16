@@ -4,10 +4,10 @@ public class Student extends Person {
     private boolean Obese;
 
     public Student(double GPA, boolean Male, boolean Obese, String firstName, String familyName) {
+        super(firstName, familyName);
         this.GPA = GPA;
         this.Male = Male;
         this.Obese = Obese;
-        super(firstName, familyName);
     }
 
     public double getGPA() {
